@@ -190,6 +190,9 @@ I let this simulation run and the results are:
 * **Total household cost without PV system:** **€ 25 639.10**  
 * **Total cost with PV + battery (including initial investment):** **€ 25 639.06**
 
+#### Summary
+The simulation concluded when the cumulative cost of the household with the PV + battery system dropped below the cost of a household without PV. This break-even point occurred after approximately 12.8 years, indicating that the system becomes economically worthwhile at that time.
+
 Another result is the Average Battery Charge for the simulation:
 
 ![BatteryCharge](plots/Battery-Charge-Season.png)
