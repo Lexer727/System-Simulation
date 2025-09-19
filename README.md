@@ -165,13 +165,13 @@ I let this simulation run and the results are:
 **End Condition**  
 * Finished after **4688.40 days** (≈ **12.8 years**)  
 * Date reached: **2 November 2037**  
-* Final simulation time: **450 085 quarter-hours** (≈ 12.8 years)
+* Final simulation steps: **450 085**
 
 ---
 
 ### System Efficiency at End of Simulation
-* **Solar panel efficiency:** **0.94 %** of original  
-* **Battery capacity:** **0.68 %** of original
+* **Solar panel efficiency:** **94 %** of original  
+* **Battery capacity:** **68 %** of original
 
 ---
 
