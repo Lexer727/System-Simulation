@@ -83,7 +83,8 @@ The data gets preprocessed in [solar_data.ipynb](solar_data.ipynb) and saved in 
 The simulation advances in **15-minute steps** (96 per day):
 
 1. **Solar generation** is read from a weather/irradiance profile (`df_solar_profile`) scaled by system size (`kWp`) and panel degradation.  
-2. **Household demand** is drawn from a standard BDEW quarter-hour profile, adjusted by day of week, holidays, and a *dynamisierungsfunktion* for variation.  
+2. **Household demand** is drawn from a standard BDEW quarter-hour profile, adjusted by day of week, holidays, and a *dynamisierungsfunktion* for variation:
+<img src="plots/dynamisierungsfunktion.png" alt="dynamisierungsfunktion" width="600"/>
 3. The household:
    * Uses solar production first
    * Draws from the battery if needed
